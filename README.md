@@ -109,3 +109,20 @@ The platform uses MongoDB with proper indexing for performance. You can view and
 
 For production deployment, update the environment variables with secure keys and production MongoDB connection string.
 
+<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/fdd3c019-cadd-418e-9cbe-5900618a8ed3" />
+
+<img width="962" height="546" alt="Image" src="https://github.com/user-attachments/assets/198abb19-5dfa-4653-9859-4a41b209ed6d" />
+
+<img width="896" height="621" alt="Image" src="https://github.com/user-attachments/assets/da7d922a-d1d3-467c-ae83-27faf27832fa" />
+
+<img width="901" height="653" alt="Image" src="https://github.com/user-attachments/assets/48af44ef-cb6b-4d46-ae7b-087a39bf61a6" />
+
+<img width="940" height="534" alt="Image" src="https://github.com/user-attachments/assets/033e7396-8042-4b1c-b45a-ad753339b752" />
+
+<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/19ae6121-37b6-4050-9cec-e9854b32a24d" />
+
+<img width="940" height="547" alt="Image" src="https://github.com/user-attachments/assets/1ab0f8c4-5098-4c9a-8f2a-1b9695207434" />
+
+<img width="938" height="451" alt="Image" src="https://github.com/user-attachments/assets/3b2cb213-7b31-4834-9726-de819eb92fa7" />
+
+<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/3c007b5a-c5c0-4824-a031-76c5431a5cb5" />
