@@ -1,156 +1,154 @@
-# Edgecraft Glass Platform
+# 🏢 Edgecraft Glass Platform  
+Developed by **Vijayakumar**
 
-A premium glass ordering platform with custom dimensions and professional quality products.
+A full-stack web application for customizing and ordering premium glass products, designed with a modern UI and seamless user experience.
 
-SCREENSHOT
+---
 
-1.Login Page
-<img width="1536" height="1024" alt="Image" src="https://github.com/user-attachments/assets/fdd3c019-cadd-418e-9cbe-5900618a8ed3" />
+## 🚀 Features
 
+- 🔐 User Authentication – Secure login and registration using JWT  
+- 🪟 Custom Glass Ordering – Dynamic size selection with real-time price calculation  
+- 🖥️ Modern UI – Responsive and user-friendly design  
+- 🎁 Gift Products Section – Browse and purchase glass-based gift products  
+- 🛒 Shopping Cart – Add, update, and remove items  
+- 💳 Payment Integration – UI and workflow implemented, backend integration in progress  
+- 📦 Order Management – Track orders and history  
+- ⭐ Review System – Rating and feedback feature  
 
-2.Product Page
-<img width="962" height="546" alt="Image" src="https://github.com/user-attachments/assets/198abb19-5dfa-4653-9859-4a41b209ed6d" />
+---
 
+## 📱 Screens
 
-3.Product View Page
-<img width="896" height="621" alt="Image" src="https://github.com/user-attachments/assets/da7d922a-d1d3-467c-ae83-27faf27832fa" />
+### 1. Login Page  
+<img src="https://github.com/user-attachments/assets/fdd3c019-cadd-418e-9cbe-5900618a8ed3" width="500"/>
 
+### 2. Product Listing Page  
+<img src="https://github.com/user-attachments/assets/198abb19-5dfa-4653-9859-4a41b209ed6d" width="500"/>
 
-4.Gift Product Page
-<img width="901" height="653" alt="Image" src="https://github.com/user-attachments/assets/48af44ef-cb6b-4d46-ae7b-087a39bf61a6" />
+### 3. Product Details & Customization  
+<img src="https://github.com/user-attachments/assets/da7d922a-d1d3-467c-ae83-27faf27832fa" width="500"/>
 
+### 4. Gift Products Page  
+<img src="https://github.com/user-attachments/assets/48af44ef-cb6b-4d46-ae7b-087a39bf61a6" width="500"/>
 
-5.Cart Page
-<img width="940" height="534" alt="Image" src="https://github.com/user-attachments/assets/033e7396-8042-4b1c-b45a-ad753339b752" />
+### 5. Cart Page  
+<img src="https://github.com/user-attachments/assets/033e7396-8042-4b1c-b45a-ad753339b752" width="500"/>
 
+### 6. Payment Page  
+<img src="https://github.com/user-attachments/assets/19ae6121-37b6-4050-9cec-e9854b32a24d" width="500"/>
 
-6.Payment Page
-<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/19ae6121-37b6-4050-9cec-e9854b32a24d" />
+### 7. Order Confirmation Page  
+<img src="https://github.com/user-attachments/assets/9b817610-7b5e-4715-b600-82d5d2081fd6" width="500"/>
 
+### 8. Orders Page  
+<img src="https://github.com/user-attachments/assets/a2db8bbb-ff99-4cbb-bb9b-e4e11a7aaa53" width="500"/>
 
-7.Payment completed Page
-<img width="940" height="547" alt="Image" src="https://github.com/user-attachments/assets/9b817610-7b5e-4715-b600-82d5d2081fd6" />
+### 9. Review Page  
+<img src="https://github.com/user-attachments/assets/615d2957-1eaf-4b43-9822-1d5196ef3898" width="500"/>
 
+---
 
-8.Order page
-<img width="938" height="451" alt="Image" src="https://github.com/user-attachments/assets/a2db8bbb-ff99-4cbb-bb9b-e4e11a7aaa53" />
+## 🛠️ Technologies Used
 
+**Frontend**
+- React  
+- TypeScript  
+- Tailwind CSS  
 
-9.Review Page
-<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/615d2957-1eaf-4b43-9822-1d5196ef3898" />
+**Backend**
+- Python (Flask)  
+- JWT Authentication  
 
+**Database**
+- MongoDB  
 
+---
 
-## Quick Start
+## ⚙️ Setup Instructions
 
-### Option 1: Run Both Frontend and Backend Together
-```bash
-npm run dev:full
-```
+### Install Dependencies
 
-### Option 2: Run Services Separately
-
-**Frontend:**
-```bash
-npm run dev
-```
-
-**Backend:**
-```bash
-cd backend
-python app.py
-```
-
-## Setup Instructions
-
-### 1. Install Dependencies
-
-**Frontend:**
+Frontend:
 ```bash
 npm install
 ```
 
-**Backend:**
+Backend:
 ```bash
 cd backend
 pip install -r requirements.txt
 ```
 
-### 2. Environment Configuration
+---
 
-**Frontend (.env):**
+### Run Project
+
+Full:
+```bash
+npm run dev:full
+```
+
+Frontend:
+```bash
+npm run dev
+```
+
+Backend:
+```bash
+cd backend
+python app.py
+```
+
+---
+
+### Environment Variables
+
+Frontend (.env):
 ```
 VITE_API_URL=http://localhost:5000/api
 ```
 
-**Backend (backend/.env):**
+Backend (.env):
 ```
-SECRET_KEY=your-secret-key-here
-JWT_SECRET_KEY=your-jwt-secret-key-here
+SECRET_KEY=your-secret-key
+JWT_SECRET_KEY=your-jwt-secret-key
 MONGODB_URI=mongodb://localhost:27017/
 MONGODB_DB_NAME=edgecraft_glass
 FLASK_ENV=development
 ```
 
-### 3. MongoDB Setup
+---
 
-**Option A: Local MongoDB**
-1. Install MongoDB Community Edition
-2. Start MongoDB: `mongod`
-3. MongoDB will be available at `mongodb://localhost:27017/`
+## 🗄️ Database Collections
 
-**Option B: MongoDB Compass**
-1. Install MongoDB Compass
-2. Connect to `mongodb://localhost:27017/`
-3. Create database: `edgecraft_glass`
+- users  
+- orders  
+- reviews  
 
-**Option C: MongoDB Atlas**
-1. Create MongoDB Atlas account
-2. Create cluster and get connection string
-3. Update `MONGODB_URI` in backend/.env
+---
 
-## Services
+## 📌 API Endpoints
 
-- **Frontend**: React + TypeScript + Tailwind CSS (Port 5173)
-- **Backend**: Flask + MongoDB + JWT Auth (Port 5000)
-- **Database**: MongoDB with Compass integration
+- POST /api/register  
+- POST /api/login  
+- GET /api/profile  
+- POST /api/orders  
+- GET /api/orders  
+- POST /api/payment/process  
+- POST /api/reviews  
 
-## Features
+---
 
-- **Authentication**: JWT-based login/register
-- **Product Catalog**: Glass products with custom dimensions
-- **Gift Collection**: Curated gift items with special packaging
-- **Shopping Cart**: Add/remove items with customization
-- **Payment Processing**: Multiple payment methods
-- **Order Management**: Track orders and history
-- **Customer Reviews**: Rating and feedback system
+## 🔮 Future Improvements
 
-## API Endpoints
+- 💳 Complete payment gateway integration  
+- 📦 Real-time order tracking  
+- 📱 Mobile app version  
+- 🔔 Notifications system  
 
-- `POST /api/register` - User registration
-- `POST /api/login` - User login
-- `GET /api/profile` - Get user profile
-- `POST /api/orders` - Create order
-- `GET /api/orders` - Get user orders
-- `POST /api/payment/process` - Process payment
-- `POST /api/reviews` - Create review
-- `GET /api/health` - Health check
+---
 
-## MongoDB Collections
+## 📌 Getting Started
 
-- **users**: User accounts and authentication
-- **orders**: Customer orders with items and billing
-- **reviews**: Product reviews and ratings
-
-## Development
-
-The platform uses MongoDB with proper indexing for performance. You can view and manage data using MongoDB Compass by connecting to your local MongoDB instance.
-
-For production deployment, update the environment variables with secure keys and production MongoDB connection string.
-
-
-<img width="940" height="547" alt="Image" src="https://github.com/user-attachments/assets/1ab0f8c4-5098-4c9a-8f2a-1b9695207434" />
-
-<img width="938" height="451" alt="Image" src="https://github.com/user-attachments/assets/3b2cb213-7b31-4834-9726-de819eb92fa7" />
-
-<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/3c007b5a-c5c0-4824-a031-76c5431a5cb5" />
+Make sure MongoDB is running locally or use MongoDB Atlas.
