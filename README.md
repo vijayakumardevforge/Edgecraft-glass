@@ -21,6 +21,15 @@ SCREENSHOT
 6.Payment Page
 <img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/19ae6121-37b6-4050-9cec-e9854b32a24d" />
 
+7.Payment completed Page
+<img width="940" height="547" alt="Image" src="https://github.com/user-attachments/assets/9b817610-7b5e-4715-b600-82d5d2081fd6" />
+
+8.Order page
+<img width="938" height="451" alt="Image" src="https://github.com/user-attachments/assets/a2db8bbb-ff99-4cbb-bb9b-e4e11a7aaa53" />
+
+9.Review Page
+<img width="940" height="533" alt="Image" src="https://github.com/user-attachments/assets/615d2957-1eaf-4b43-9822-1d5196ef3898" />
+
 
 ## Quick Start
 
