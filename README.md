@@ -108,4 +108,4 @@ FLASK_ENV=development
 The platform uses MongoDB with proper indexing for performance. You can view and manage data using MongoDB Compass by connecting to your local MongoDB instance.
 
 For production deployment, update the environment variables with secure keys and production MongoDB connection string.
-<img width="966" height="548" alt="Image" src="https://github.com/user-attachments/assets/7ba264be-7eab-4a98-9e15-e3f84c8dc7f6" />
+
